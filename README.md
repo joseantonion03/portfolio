@@ -20,7 +20,7 @@ Clone o projeto
 Entre no diretório do projeto
 
 ```bash
-  cd portfolio-main
+  cd portfolio
 ```
 
 Instale as dependências

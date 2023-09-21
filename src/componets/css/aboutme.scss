@@ -1,0 +1,50 @@
+#about_background {
+  background-image: url("/public/imagens/PXL_20220612_165646074.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 900px;
+}
+#about_background_shadow {
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    #06121e 0%,
+    rgba(6, 18, 30, 0.93) 25%,
+    rgba(6, 18, 30, 0.83) 51.04%,
+    #06121e 100%
+  );
+  width: 100%;
+  height: 100%;
+}
+.myname {
+  font-size: calc(min(165px, 13vw));
+  @media screen and (max-width: 800px) {
+    & {
+      font-size: 13vw !important;
+      padding-bottom: 2rem;
+    }
+  }
+}
+
+.myresume {
+  @media screen and (max-width: 800px) {
+    &{
+      text-align: center!important;
+    }
+  }
+}
+
+.network{
+  @media screen and (max-width: 800px) {
+    &{
+      text-align: center!important;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    button{
+      width: 80%;
+    }
+  }
+}

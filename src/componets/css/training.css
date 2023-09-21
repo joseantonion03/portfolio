@@ -1,0 +1,19 @@
+.softAndHardskills div {
+  width: calc(33.3333333333% - 8px);
+}
+@media screen and (max-width: 1000px) {
+  .softAndHardskills div {
+    width: calc(50% - 8px);
+  }
+}
+@media screen and (max-width: 650px) {
+  .softAndHardskills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .softAndHardskills div {
+    width: 100%;
+    max-width: 400px;
+  }
+}/*# sourceMappingURL=training.css.map */

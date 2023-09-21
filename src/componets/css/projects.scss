@@ -1,0 +1,42 @@
+#projects {
+  height: auto;
+  width: 100%;
+  min-height: 900px;
+}
+.projects_card {
+  background-color: #0c2135;
+}
+.projects_imagem {
+  min-height: 200px;
+  border-radius: 2.5px;
+}
+
+.projects-efeito {
+  z-index: -1;
+  width: calc(100% - 20px);
+}
+
+.projects-efeito-1 {
+  width: 590px;
+  height: 590px;
+  border-radius: 590px;
+  opacity: 0.9;
+  filter: blur(200px);
+}
+
+.projects-efeito-2 {
+  width: 555.204px;
+  height: 555.204px;
+  border-radius: 555.204px;
+  opacity: 0.7;
+  background: #0284c7;
+  filter: blur(500px);
+}
+.projects-efeito-1,
+.projects-efeito-2{
+  //transform: rotate(75deg);
+  transform: translateY(20%);
+  flex-shrink: 0;
+  background: #0284c7;
+  max-width: 100%;
+}

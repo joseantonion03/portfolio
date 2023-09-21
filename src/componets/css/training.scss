@@ -1,0 +1,21 @@
+.softAndHardskills {
+  div {
+    width: calc((100% / 3) - 8px);
+  }
+  @media screen and (max-width: 1000px) {
+    div {
+      width: calc((100% / 2) - 8px);
+    }
+  }
+  @media screen and (max-width: 650px) {
+    & {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    div {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+}

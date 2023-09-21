@@ -15,7 +15,6 @@ const Home = () => {
       <Training/>
       <Ability/>
       <Projects/>
-      <Instagram/>
       <Footer/>
     </div>
   );

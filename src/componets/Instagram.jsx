@@ -5,7 +5,7 @@ const Instagram = () => {
     var splideInstagram;
     const feed = new Instafeed({
       accessToken:
-        "IGQWRPQ0J2dTE2S1pHQmhpMGt0RlhjR3JsdTdZAbEwtMmdDcjdHbkI2Um42UDB4bXpkdkRTcG1EV0h4dENLNUlKd3U5NlJwOW9aRVh0dTMxM3lJRmRBTmYtUC1GczdoLURvdkt1Ym5oMnBILThoRlM1ZA3FzRmdTU3MZD",
+        "IGQWRPTGZAoa0hpUVc0bG90VmM1OWV6NnN6b0plMjZAJLS1zNGFfZAS13RGRtb1JXZAC1uX0t4UDl4eDJHZAUNGdkYzVDA5SEFpTHFNeVNzUVRZAd3BueUkzdVltZAXUyYnA5X0ZANOHh2VWh1bmRxNGJVbUlsWDhIUC15Mm8ZD",
       limit: 10, //mostrar na tela as 10 últimas postagens
       template: `<div class="splide__slide">
                     <div class="slide__instagram__content">
